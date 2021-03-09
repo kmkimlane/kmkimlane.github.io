@@ -1,6 +1,6 @@
 ---
 layout: list
-title: InNOut
+title: In N Out
 slug: innout
 menu: true
 submenu: true

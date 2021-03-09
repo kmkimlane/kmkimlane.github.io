@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: CB
-slug: CB
+slug: cb
 category: rscsys
 menu: false
 order: 3

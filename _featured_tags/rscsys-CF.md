@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: CF
-slug: CF
+slug: cf
 category: rscsys
 menu: false
 order: 2

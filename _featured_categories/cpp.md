@@ -1,7 +1,7 @@
 ---
 layout: list
-title: C++ 
-slug: C++
+title: CPP
+slug: cpp
 menu: true
 submenu: true 
 order: 3

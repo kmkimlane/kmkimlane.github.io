@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Recommender System
-slug: Recommender System
+title: RSCSYS
+slug: rscsys
 menu: true
 submenu: true
 order: 1

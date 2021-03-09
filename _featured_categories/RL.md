@@ -1,7 +1,7 @@
 ---
 layout: list
 title: RL
-slug: RL
+slug: rl
 menu: true
 submenu: true
 order: 2

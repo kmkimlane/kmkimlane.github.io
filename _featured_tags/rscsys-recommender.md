@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
 title: Recommender
-slug: Recommender
-category: RSCSYS
+slug: recommender
+category: rscsys
 menu: false
 order: 1
 ---

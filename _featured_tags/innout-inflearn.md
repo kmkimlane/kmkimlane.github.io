@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
 title: Inflearn
-slug: Inflearn
-category: in&out
+slug: inflearn
+category: innout
 menu: false
 order: 1
 ---

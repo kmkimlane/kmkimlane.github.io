@@ -1,7 +1,7 @@
 ---
 layout: list
-title: In & Out
-slug: In & Out
+title: InNOut
+slug: innout
 menu: true
 submenu: true
 order: 5

@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
 title: Inflearn Leaf 2st
-slug: Inflearn Leaf 2st
-category: in&out
+slug: inflearn leaf 2st
+category: innout
 menu: false
-order: 2
+order: 1
 ---

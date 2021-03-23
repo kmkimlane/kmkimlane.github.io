@@ -41,12 +41,12 @@ comment: true
 1. 일반적으로 사람들이 좋아하는 부류의 동영상을 추천해주기
 2. 내가 좋아하는 부류의 동영상을 추천해주기
 
-우리가 자주찾는 Youtube의 기본화면을 봐보자.
-<img src="/assets/img/202103/0324/1.jpg>  
+우리가 자주찾는 Youtube의 기본화면을 봐보자.  
+<img src="/assets/img/202103/0324/1.jpg">  
 
 IMG1. 필자가 거의쓰지않은 계정
-
-<img src="/assets/img/202103/0324/2.jpg>  
+  
+<img src="/assets/img/202103/0324/2.jpg">  
 
 IMG2. 필자가 자주 사용하는 계정
 
@@ -56,8 +56,8 @@ IMG1. 거의 사용하지않은 계정은 1. 일반적으로 사람들이 좋아
 IMG2. 자주 사용하는 계정은 2. 내가 좋아하는 부류의 동영상 이 많이 보이는것을 알수있다.
 (필자는 IT, 게임,무한도전, 차량블랙박스, 음악부류의 동영상을 자주보는편이다)
 
-동영상을 눌러서 직접 봐보자.
-<img src="/assets/img/202103/0324/3.jpg>  
+동영상을 눌러서 직접 봐보자.  
+<img src="/assets/img/202103/0324/3.jpg">  
 
 이 경우에는 무한도전에서 '자존심이 상한 꼬마' 라는 썸네일을 가지는 동영상이 유저에게 추천된 경우이다.
 
@@ -122,7 +122,7 @@ User가 흥미가없는 동영상을 시청했을때(User가 싫어하는 동영
 User에게 추천되는 동영상도 User가 싫어할 것이다. 라는게 Feedback loop이다.
 
 ### Model Architecture
-<img src="/assets/img/202103/0324/4.jpg>
+<img src="/assets/img/202103/0324/4.jpg">
 
 주요하게 볼 내용
 
@@ -171,7 +171,7 @@ User가 행동했던 모든 것들이 Log임 (Multiple Objective)
 ⇒ Shallow tower로 해결함
 
 ### Gating networks + MMoE
-<img src="/assets/img/202103/0324/5.jpg>  
+<img src="/assets/img/202103/0324/5.jpg">  
 
 MoE는 Input layer를 Expert로 모듈화 시키고, Layer 마다 Input의 서로 다른 부분을 받는다.
 : 2가지로 나뉜 Object는 Input Layer의 서로다른 모듈로 들어간다.
@@ -180,7 +180,7 @@ Multiple Gating Networks를 통해서 Object마다 experts를 선택하여 다�
 
 ### Input features
 
-<img src="/assets/img/202103/0324/6.jpg>  
+<img src="/assets/img/202103/0324/6.jpg">  
 
 input features(training data)를 2개의 부분으로 나눈다.
 main model부분에서 학습되었으나, unbiased된 user utility
@@ -188,7 +188,7 @@ shallow tower에서 학습된, estimated된 propensity score
 
 ### Shallow Tower
 
-<img src="/assets/img/202103/0324/7.jpg>  
+<img src="/assets/img/202103/0324/7.jpg">  
 
 input features에서 selection bias(ex. position bias)를 modeling하고 reduce하기위해서 존재함.
 
@@ -197,7 +197,7 @@ output으로는 scalar를 도출한다.(이때의 scalar는 최종예측에 큰 
 
 ### Model Architecture구성이 가지는 의미
 
-<img src="/assets/img/202103/0324/8.jpg>
+<img src="/assets/img/202103/0324/8.jpg">
 
 이러한 전체모델구성은(main model + shallow tower)
 Wide &Deep모델의 확장으로도 볼수있을것이고
@@ -458,7 +458,7 @@ task간의 Correlation(상관관계)가 낮을때 Multiple objectives에 대해�
 
 ### MOE
 
-<img src="/assets/img/202103/0324/9.jpg>
+<img src="/assets/img/202103/0324/9.jpg">
 
 Expert Layer
 
@@ -477,9 +477,9 @@ model traning && serving 할때 Cost가 증가한다는 단점이 있고
 (이유 : Input Layer의 차원이 hidden layer보다 고차원이기때문)
 
 ### MMOE
-<img src="/assets/img/202103/0324/10.jpg>
+<img src="/assets/img/202103/0324/10.jpg">
 
-<img src="/assets/img/202103/0324/11.jpg>
+<img src="/assets/img/202103/0324/11.jpg">
 
 
 # 4.4 Modeling and Removing Position and Selection Biases
@@ -511,7 +511,7 @@ Traning data의 selection bias를 제거하고 모델링하면
 
 ### Model = main tower + shallow tower
 
-<img src="/assets/img/202103/0324/12.jpg>
+<img src="/assets/img/202103/0324/12.jpg">
 
 Model Architecture에서
 
@@ -536,7 +536,7 @@ devices의 different types의 different position bias가 관측되기 때문이�
 
 # 5. Experiment results
 
-<img src="/assets/img/202103/0324/13.jpg>
+<img src="/assets/img/202103/0324/13.jpg">
 
 실제 실험 : Youtube
 
@@ -591,11 +591,11 @@ Model complexity : (복잡성)
 
 # 5.2.2 Live Experiment Results
 
-<img src="/assets/img/202103/0324/14.jpg>
+<img src="/assets/img/202103/0324/14.jpg">
 
 # 5.2.3 Gating Network Distribution
 
-<img src="/assets/img/202103/0324/15.jpg>
+<img src="/assets/img/202103/0324/15.jpg">
 
 # 5.2.4 Gating Network Stablity
 
@@ -618,7 +618,7 @@ Implicit feedback 와 true user utility에 대한 차이를 제거해야함
 
 # 5.3.1 Analysis of User Implicit Feedback
 
-<img src="/assets/img/202103/0324/16.jpg>
+<img src="/assets/img/202103/0324/16.jpg">
 
 위치별 클릭률을 비교 1(상단)~9(하단)
 
@@ -648,17 +648,17 @@ Grdient를 반대로줘서, Model의 prediction이 position feature에 영향을
 
 # 5.3.3 Live Experiment Results
 
-<img src="/assets/img/202103/0324/17.jpg>
+<img src="/assets/img/202103/0324/17.jpg">
 
 Position Bias를 모델링해서 실험해봤더니 Engagement Metirc이 향상됨
 
 # 5.3.4 Learned Position Biases
 
-<img src="/assets/img/202103/0324/18.jpg>
+<img src="/assets/img/202103/0324/18.jpg">
 
 # 5.4.1 Neural Network Model Architecture for Recommendation and Ranking
 
-<img src="/assets/img/202103/0324/19.jpg>
+<img src="/assets/img/202103/0324/19.jpg">
 
 1. Multimodal feature spaces.
     - Query의 내용, item, context 같은 다양한 feature

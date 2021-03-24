@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               하다보면되겠지
+title:               학부생쫑긋의 쫑긋쫑긋
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -13,7 +13,7 @@ url:                 https://kmkimlane.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:            게시판수정하고있어요! Mail:kmkimlane@gmail.com  
+tagline:            오류,수정사항 발견하시면 >> kmkimlane@gmail.com  
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)

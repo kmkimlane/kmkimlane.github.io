@@ -10,7 +10,7 @@ comment: true
 
 학회 : Recsys 2019
 
-작성일 : 2021.02.23
+발표일 : 2021.02.23
 
 # 주된 차별점
 
@@ -90,7 +90,7 @@ Layer1 : Candidate Generation Layer
 
 Layer2 : Ranking Layer
 
-(이 논문은 Ranking Layer에 focusing한 논문)
+(이 논문은 **Ranking Layer**에 focusing한 논문)
 
 Layer1에서 Candidates Objectives를 만들고(후보동영상을 만드는과정)
 
@@ -117,9 +117,9 @@ User는 동영상이 'User가 관심있어했던 동영상' or '흥미가 없는
 
 근데, 동영상을 선택했을때 유저가 선택한동영상과 비슷한 동영상을 추천해주는 시스템을 채용하고있으니,
 
-User가 흥미가없는 동영상을 시청했을때(User가 싫어하는 동영상)
+User가 동영상을시청했을때, 그 동영상에 대해서 **부정적인 평가**를 내린다면  
 
-User에게 추천되는 동영상도 User가 싫어할 것이다. 라는게 Feedback loop이다.
+User에게 **추천되는 동영상에 대해서도 User는 부정적인 평가**를 내릴것이다. 라는게 **Feedback loop**이다.
 
 ### Model Architecture
 <img src="/assets/img/202103/0324/4.jpg">
@@ -164,7 +164,7 @@ User가 행동했던 모든 것들이 Log임 (Multiple Objective)
     1. 영상에 대하여 좋아요를 누르는 행위
     2. 영상을 보는중에, 영상을 그만보는 행위
 
-→ 1과 2에 중복되는 Log가 존재할수 있음
+→ 1과 2에 **중복되는 Log**가 존재할수 있음
 
 (User가 직접 참여하면서 && User가 동영상에 만족하는행위)
 
@@ -232,7 +232,7 @@ Device : tablet
 Where : Home
 What : movies
 
-이런식으로 Query를 구성할수 있음
+이런식으로 **Query**를 구성할수 있음
 
 # 2.1 Industrial Recommendation Systems : Explicit or Implicit여부
 
@@ -241,7 +241,7 @@ Training Dataset의 부족 (Implicit Data만 사용함)
 
 현실적으로는 explicit feedback의 경우 비용때문에 실행하기는 어려움
 
-→ click이나, 추천된 items를 보는것에 참여하는 User의 참여형태로 존재하는 implicit feedback 를 사용한다.
+→ click이나, 추천된 items를 보는것에 참여하는 User의 참여형태로 존재하는 **implicit feedback** 를 사용한다.
 
 # 2.2 Multi-Objective Learning for Recommendation Systems
 
@@ -251,7 +251,7 @@ Training Dataset의 부족 (Implicit Data만 사용함)
 
 → 클릭된 video에만 점수매길수있는 시스템특성상 마음에들지않은 Video에도 Score를 줄수밖에없음
 
-⇒ 싫어하는 Video가 계속 추천되는 상황이 발생함
+⇒ **싫어하는 Video가 계속 추천되는 상황이 발생함**
 
 해결방안
 
@@ -316,7 +316,7 @@ Ranking 시스템에서 생기는 문제들
 조건 : Context-aware personalized RS
 목표 : multiple modalities 기반으로 -> User utility를 도출해내야함
 
-이유 : Multimodal feature space에서 라는 특징때문
+이유 : **Multimodal feature space**에서 라는 특징때문
 
 도출하는 것들
 

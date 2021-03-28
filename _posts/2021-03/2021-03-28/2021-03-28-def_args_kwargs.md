@@ -6,10 +6,8 @@ categories: innout
 tags: leaf2st
 comments: true
 ---
-
-
-함수는 왜 정의하는가?
-
+  
+# 함수는 왜 정의하는가?
 내가 원하는 소스코드를 입맛대로 묶어놓을수 있기 때문이다. 차근차근히 보자
 
 # Def문

@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 5
 description: >
-  대 외 대 내 활 동 ! 
+  Official 쫑긋  
 ---

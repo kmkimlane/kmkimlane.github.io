@@ -6,7 +6,11 @@ categories: innout
 tags: naveropen
 comments: true
 ---
-  
+
+주관적 필독 : Q2.함께일하고 싶은 사람
+
+
+
 - Intro
 
     이번에도 어김없이 선 영상에 대한 내용요약먼저하겠다. 이번 영상의 주제는 "커뮤니케이션"이다.

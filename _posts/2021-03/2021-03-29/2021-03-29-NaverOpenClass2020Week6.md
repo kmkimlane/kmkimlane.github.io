@@ -6,7 +6,10 @@ categories: innout
 tags: naveropen
 comments: true
 ---  
-  
+
+주관적 필독 : Q1.신입에게 기대하는것, Q2.학사도ML/DL을 뽑는이유, Q11.당부하고싶은내용  
+
+
 Intro
 
 이번 6주차는 원래 LIVE방송으로 진행하려했으나, 코로나때문에 갑자기 녹화영상으로 대체되었다.

@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: 소소한 RL
+title: RL original
 slug: rlrl
 category: rl
 menu: false

@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: 소소한 SSL
+title: RLtoSSL
 slug: rlssl
 category: rl
 menu: false

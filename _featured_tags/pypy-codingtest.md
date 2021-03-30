@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
 title: Coding test
-slug: coding test
-category: cpp
+slug: codingtest
+category: pypy
 menu: false
 order: 2
 ---

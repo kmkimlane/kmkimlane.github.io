@@ -1,7 +1,7 @@
 ---
 layout: list
-title: CPP
-slug: cpp
+title: Python
+slug: pypy
 menu: true
 submenu: true 
 order: 3

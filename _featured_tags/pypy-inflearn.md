@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Leaf 2st
+title: Inflearn. Leaf 2st
 slug: leaf2st
-category: innout
+category: pypy
 menu: false
-order: 1
+order: 3
 ---

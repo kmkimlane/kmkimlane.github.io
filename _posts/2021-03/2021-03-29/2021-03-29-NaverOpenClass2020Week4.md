@@ -7,7 +7,7 @@ tags: naveropen
 comments: true
 ---
 
-주관적 필독 : Q2.함께일하고 싶은 사람
+# 주관적 필독 : Q2.함께일하고 싶은 사람
 
 
 

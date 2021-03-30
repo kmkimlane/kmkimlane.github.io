@@ -7,7 +7,7 @@ tags: naveropen
 comments: true
 ---  
 
-주관적 필독 : Q1.비전공자도 개발을 할수 있을까, Q3. 윈도우 VS 맥북 VS 리눅스  
+# 주관적 필독 : Q1.비전공자도 개발을 할수 있을까, Q3. 윈도우 VS 맥북 VS 리눅스  
 
 
 

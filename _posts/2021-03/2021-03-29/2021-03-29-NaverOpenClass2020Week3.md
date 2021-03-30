@@ -7,7 +7,7 @@ tags: naveropen
 comments: true
 ---
 
-주관적 필독 : Q1.깊고좁은 VS 넓고얕은, Q3.학점에 대하여  
+# 주관적 필독 : Q1.깊고좁은 VS 넓고얕은, Q3.학점에 대하여  
 
 
 

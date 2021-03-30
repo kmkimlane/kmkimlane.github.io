@@ -7,7 +7,7 @@ tags: naveropen
 comments: true
 ---
 
-주관적 필독 : Q1.평생공부하는직업.개발자  
+# 주관적 필독 : Q1.평생공부하는직업.개발자  
 
 
 - Intro

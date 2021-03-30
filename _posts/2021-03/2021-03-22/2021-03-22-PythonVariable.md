@@ -2,7 +2,7 @@
 layout: post
 title:  "인프런 리프2기 3. 파이썬 기초자료형"
 subtitle:   "인프런 리프2기"
-categories: innout
+categories: pypy
 tags: leaf2st
 comments: true
 ---

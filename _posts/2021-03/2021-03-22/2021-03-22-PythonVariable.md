@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "인프런 리프2기 3. 파이썬 기초자료형"
+title:  "인프런 리프2기 3. Variable"
 subtitle:   "인프런 리프2기"
 categories: pypy
 tags: leaf2st

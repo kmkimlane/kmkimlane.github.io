@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "인프런 리프2기 2. 파이썬완전기초"
+title:  "인프런 리프2기 2. Print"
 subtitle:   "인프런 리프2기"
 categories: pypy
 tags: leaf2st

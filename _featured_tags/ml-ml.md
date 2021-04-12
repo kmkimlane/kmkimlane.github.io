@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: FOR ML
-slug: mlml
+title: MachineLearning
+slug: machinelearning
 category: ml
 menu: false
 order: 1

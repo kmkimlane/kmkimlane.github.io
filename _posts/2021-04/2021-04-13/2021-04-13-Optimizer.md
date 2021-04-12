@@ -3,7 +3,7 @@ layout: post
 title:  "OPTIMIZER족보"
 subtitle:   "ML기미상궁"
 categories: ml
-tags: ml
+tags: machinelearning
 comments: true
 ---
 

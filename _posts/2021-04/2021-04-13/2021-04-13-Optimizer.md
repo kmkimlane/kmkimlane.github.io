@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "OPTIMIZER족보"
+subtitle:   "ML기미상궁"
+categories: ml
+tags: ml
+comments: true
+---
+
+
 # ML문제3대장
 
 ### 1. Underfitting
